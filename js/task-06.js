@@ -1,15 +1,14 @@
-function calculateTotalPrice(orderedItems) {
+// Пиши код ниже этой строки
+const calculateTotalPrice = (orderedItems) => {
   let totalPrice = 0;
-  // Пиши код ниже этой строки
 
-  orderedItems.forEach(oItem => {
-    totalPrice += oItem;
+  orderedItems.forEach(item => {
+    totalPrice += item;
   });
 
-  // Пиши код выше этой строки
   return totalPrice;
 }
-
+// Пиши код выше этой строки
 console.log(calculateTotalPrice([12, 85, 37, 4]));
 console.log(calculateTotalPrice([164, 48, 291]));
 console.log(calculateTotalPrice([412, 371, 94, 63, 176]));
